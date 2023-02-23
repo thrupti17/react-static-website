@@ -9,6 +9,16 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+parameters:
+  - name: run_env
+    displayName: This is environment name
+    type: string
+    values:
+      - dev
+      - prod
+      - test
+    
+
 steps:
 - task: NodeTool@0
   inputs:
