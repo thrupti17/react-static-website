@@ -15,9 +15,3 @@ stages:
     displayName: This is Job A
     jobs:
       - template: react-static-website/pipeline/jobs/jobA.yml
-  steps:
-  - bash: echo "A"
-
-- job: B
-  steps:
-  - bash: echo "B"
