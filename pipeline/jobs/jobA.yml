@@ -1,4 +1,8 @@
---- # Favorite movies
- - Casablanca
- - North by Northwest
- - The Man Who Wasn't There
+# File: template-file.yml
+
+jobs:
+  - job: BuildAndTest
+    displayName: 'Build and Test'
+    steps:
+      - script: echo "Building and testing"
+
