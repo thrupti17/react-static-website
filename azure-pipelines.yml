@@ -14,4 +14,4 @@ stages:
   - stage: JobA
     displayName: This is Job A
     jobs:
-      - template: pipeline/jobs/jobA.yml
+      - template: /pipeline/jobs/jobA.yml
