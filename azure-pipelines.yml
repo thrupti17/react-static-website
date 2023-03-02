@@ -10,9 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
  
-
-jobs:
-- job: A
+stages:
+  - stage: JobA
+    displayName: This is Job A
+    jobs:
+      - template: react-static-website/pipeline/jobs/jobA.yml
   steps:
   - bash: echo "A"
 
