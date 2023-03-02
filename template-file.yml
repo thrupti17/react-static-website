@@ -1,0 +1,7 @@
+# File: template-file.yml
+
+jobs:
+  - job: BuildAndTest
+    displayName: 'Build and Test'
+    steps:
+      - script: echo "Building and testing"
